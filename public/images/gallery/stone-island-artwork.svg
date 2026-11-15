@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090D"/>
+      <stop offset="50%" stop-color="#12141C"/>
+      <stop offset="100%" stop-color="#0B0C10"/>
+    </linearGradient>
+    <radialGradient id="glow-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF2E4D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF2E4D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#FF2E4D"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg-grad)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+
+  <!-- Radial Light Spot -->
+  <circle cx="400" cy="225" r="300" fill="url(#glow-grad)"/>
+
+  <!-- Cyber Geometric Shapes -->
+  <polygon points="100,50 700,50 750,400 50,400" fill="none" stroke="#FF2E4D" stroke-opacity="0.15" stroke-width="2"/>
+  <circle cx="400" cy="200" r="120" fill="none" stroke="#E63946" stroke-opacity="0.2" stroke-dasharray="10 5" stroke-width="2"/>
+  <circle cx="400" cy="200" r="80" fill="none" stroke="#FF2E4D" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Center Gaming Emblem -->
+  <g transform="translate(400, 180)">
+    
+      <!-- Skull / Survival Shield Emblem -->
+      <path d="M -30 -30 L 30 -30 L 40 20 L 0 50 L -40 20 Z" fill="none" stroke="url(#accent-grad)" stroke-width="4"/>
+      <circle cx="-12" cy="-5" r="6" fill="#FF2E4D"/>
+      <circle cx="12" cy="-5" r="6" fill="#FF2E4D"/>
+      <path d="M -15 20 L 15 20" stroke="#E63946" stroke-width="3"/>
+    
+  </g>
+
+  <!-- Badge -->
+  <rect x="50" y="40" width="160" height="28" rx="14" fill="#E63946" fill-opacity="0.2" stroke="#FF2E4D" stroke-width="1"/>
+  <text x="130" y="59" fill="#FF2E4D" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1.5">ARTWORK</text>
+
+  <!-- Title & Subtitle -->
+  <text x="400" y="320" fill="#FFFFFF" font-family="sans-serif" font-size="28" font-weight="800" text-anchor="middle" letter-spacing="1">Key Visual Poster</text>
+  <text x="400" y="355" fill="#94A3B8" font-family="sans-serif" font-size="15" text-anchor="middle">Promotional Studio Artwork</text>
+
+  <!-- Bottom Accent Bar -->
+  <rect x="0" y="442" width="800" height="8" fill="url(#accent-grad)"/>
+</svg>

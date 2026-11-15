@@ -1,0 +1,87 @@
+[
+  {
+    "id": "stone-island",
+    "title": "Stone Island: The Apocalypse",
+    "tagline": "Third-person zombie survival shooter with exploration and action.",
+    "description": "Survive in a desolate island overrun by undead monstrosities. Scavenge for supplies, craft high-tier weaponry, fortify your shelters, and uncover the sinister secrets behind the island containment protocol. Built with Unity for high-frame-rate mobile survival gameplay.",
+    "genre": "Action • Survival",
+    "platform": "Android",
+    "status": "Live on Google Play",
+    "releaseDate": "2025",
+    "rating": "4.8 ★ (15K+ Reviews)",
+    "downloads": "500,000+",
+    "coverImage": "/images/games/stone-island-cover.svg",
+    "bannerImage": "/images/games/stone-island-banner.svg",
+    "screenshots": [
+      "/images/games/stone-island-1.svg",
+      "/images/games/stone-island-2.svg",
+      "/images/games/stone-island-3.svg"
+    ],
+    "features": [
+      "Dynamic Weather & Day/Night Survival Cycles",
+      "Comprehensive Crafting & Shelter Fortification",
+      "Diverse Zombie Mutations & Boss Encounters",
+      "Responsive Touch Controls & Dual-Stick Precision",
+      "60 FPS Optimized Shader Pipeline"
+    ],
+    "googlePlayUrl": "https://play.google.com/store/apps/dev?id=6900533808962356909&hl=hr",
+    "trailerUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "badge": "FEATURED GAME"
+  },
+  {
+    "id": "infinity-space",
+    "title": "Infinity Space",
+    "tagline": "Fast-paced multiplayer PvP spaceship battle game featuring competitive online gameplay.",
+    "description": "Pilot customized starfighters in real-time tactical space arenas. Master inertia thrusters, deploy EMP fields, lock orbital torpedoes, and climb global competitive leaderboards powered by Photon multiplayer architecture.",
+    "genre": "Multiplayer PvP",
+    "platform": "Android",
+    "status": "Live on Google Play",
+    "releaseDate": "2025",
+    "rating": "4.7 ★ (10K+ Reviews)",
+    "downloads": "250,000+",
+    "coverImage": "/images/games/infinity-space-cover.svg",
+    "bannerImage": "/images/games/infinity-space-banner.svg",
+    "screenshots": [
+      "/images/games/infinity-space-1.svg",
+      "/images/games/infinity-space-2.svg",
+      "/images/games/infinity-space-3.svg"
+    ],
+    "features": [
+      "Real-Time 60Hz Photon Networking Sync",
+      "Modular Starfighter Craft Customization & Weaponry",
+      "Competitive Ranked Seasons & ELO Leaderboards",
+      "Asteroid Field Tactical Cover Physics",
+      "Cross-Device Cloud Save via Firebase"
+    ],
+    "googlePlayUrl": "https://play.google.com/store/apps/dev?id=6900533808962356909&hl=hr",
+    "trailerUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "badge": "PVP MULTIPLAYER"
+  },
+  {
+    "id": "cyber-core",
+    "title": "Cyber Core: Horizon",
+    "tagline": "Tactical Cyberpunk Squad RPG featuring real-time hack & command mechanics.",
+    "description": "Lead an elite mercenary squad through neon-drenched dystopias. Hack enemy cyberware mid-combat, command AI drones, and reshape the city power balance in this upcoming narrative campaign.",
+    "genre": "Tactical RPG",
+    "platform": "Android • iOS • PC",
+    "status": "In Development",
+    "releaseDate": "Q4 2026",
+    "rating": "Wishlist Now",
+    "downloads": "Pre-Registration Open",
+    "coverImage": "/images/games/cyber-core-cover.svg",
+    "bannerImage": "/images/games/cyber-core-banner.svg",
+    "screenshots": [
+      "/images/games/cyber-core-1.svg",
+      "/images/games/cyber-core-2.svg"
+    ],
+    "features": [
+      "Cybernetic Augmentation Skill Trees",
+      "Real-Time Tactical Pause Command System",
+      "Branching Cyberpunk Narrative Storyline",
+      "Ray-Traced Ambient Visuals & Dynamic Audio"
+    ],
+    "googlePlayUrl": "#",
+    "trailerUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "badge": "COMING SOON"
+  }
+]

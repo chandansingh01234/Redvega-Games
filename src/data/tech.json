@@ -1,0 +1,74 @@
+[
+  {
+    "id": "unity",
+    "name": "Unity",
+    "category": "Engine",
+    "description": "Primary engine powering real-time 3D physics, particle systems, and multiplatform shader pipelines.",
+    "iconName": "Gamepad2",
+    "level": "Expert Mastery",
+    "highlight": "Universal Render Pipeline & C# Scripting"
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "category": "Language",
+    "description": "Core language utilized for high-performance game logic, object pooling, and async tasks.",
+    "iconName": "Code2",
+    "level": "Core Language",
+    "highlight": "Object-Oriented Architecture & Memory Optimization"
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "category": "Networking",
+    "description": "Real-time multiplayer engine enabling 60Hz state synchronization, rooms, and matchmaking.",
+    "iconName": "Wifi",
+    "level": "Multiplayer Architecture",
+    "highlight": "Low-Latency PvP & Client-Side Prediction"
+  },
+  {
+    "id": "addressables",
+    "name": "Addressables",
+    "category": "Asset Pipeline",
+    "description": "Dynamic asset management for on-demand asset streaming, memory efficiency, and DLC updates.",
+    "iconName": "Boxes",
+    "level": "Asset Optimization",
+    "highlight": "Asynchronous Asset Streaming & Memory Savings"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "category": "Backend",
+    "description": "Backend services for cross-platform cloud saves, player authentication, and remote config.",
+    "iconName": "Flame",
+    "level": "Cloud Infrastructure",
+    "highlight": "Realtime Database & Cloud Functions"
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Backend",
+    "description": "Scalable cloud hosting, global leaderboard compute, and secure serverless microservices.",
+    "iconName": "Server",
+    "level": "Scalable Cloud",
+    "highlight": "S3 Data Storage & Lambda Microservices"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "category": "Asset Pipeline",
+    "description": "Complete 3D suite for low-poly/high-poly mesh creation, UV unwrapping, rigging, and animation.",
+    "iconName": "Box",
+    "level": "3D Art & Rigging",
+    "highlight": "PBR Texturing & Skeletal Animation"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "Version control & CI/CD workflow for game releases, branch management, and automated builds.",
+    "iconName": "GitBranch",
+    "level": "DevOps & Version Control",
+    "highlight": "Git LFS & Automated Build Pipelines"
+  }
+]

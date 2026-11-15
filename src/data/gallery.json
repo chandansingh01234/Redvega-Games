@@ -1,0 +1,50 @@
+[
+  {
+    "id": "gal-1",
+    "title": "Zombie Horde Sunset Patrol",
+    "game": "Stone Island",
+    "category": "Screenshot",
+    "image": "/images/gallery/stone-island-shot1.svg",
+    "aspectRatio": "aspect-video"
+  },
+  {
+    "id": "gal-2",
+    "title": "Orbital Nebula Dogfight",
+    "game": "Infinity Space",
+    "category": "Screenshot",
+    "image": "/images/gallery/infinity-space-shot1.svg",
+    "aspectRatio": "aspect-video"
+  },
+  {
+    "id": "gal-3",
+    "title": "Cyberware Terminal UI Concept",
+    "game": "Cyber Core",
+    "category": "UI Render",
+    "image": "/images/gallery/cyber-core-shot1.svg",
+    "aspectRatio": "aspect-square"
+  },
+  {
+    "id": "gal-4",
+    "title": "Base Fortification Night Defense",
+    "game": "Stone Island",
+    "category": "Screenshot",
+    "image": "/images/gallery/stone-island-shot2.svg",
+    "aspectRatio": "aspect-video"
+  },
+  {
+    "id": "gal-5",
+    "title": "Starfighter Hangar Customization",
+    "game": "Infinity Space",
+    "category": "3D Model",
+    "image": "/images/gallery/infinity-space-shot2.svg",
+    "aspectRatio": "aspect-square"
+  },
+  {
+    "id": "gal-6",
+    "title": "Apocalypse Key Visual Poster",
+    "game": "Stone Island",
+    "category": "Artwork",
+    "image": "/images/gallery/stone-island-artwork.svg",
+    "aspectRatio": "aspect-[4/3]"
+  }
+]

@@ -1,26 +1,160 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-dark: #08090D;
+  --bg-card: #10131C;
+  --bg-card-hover: #161A26;
+  --accent-red: #E63946;
+  --accent-red-glow: #FF2E4D;
+  --accent-cyan: #00F0FF;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-red: rgba(230, 57, 70, 0.3);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-dark-bg: var(--bg-dark);
+  --color-card-bg: var(--bg-card);
+  --color-card-hover: var(--bg-card-hover);
+  --color-red-primary: var(--accent-red);
+  --color-red-glow: var(--accent-red-glow);
+  --color-cyan-accent: var(--accent-cyan);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  selection-background-color: var(--accent-red);
+  selection-color: #ffffff;
+}
+
+::selection {
+  background-color: var(--accent-red);
+  color: #ffffff;
+}
+
+/* Custom Gaming Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2432;
+  border-radius: 4px;
+  border: 1px solid rgba(230, 57, 70, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-red);
+  box-shadow: 0 0 10px var(--accent-red-glow);
+}
+
+/* Glassmorphism Cards */
+.glass-panel {
+  background: rgba(16, 19, 28, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-panel-glow {
+  background: rgba(16, 19, 28, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(230, 57, 70, 0.25);
+  box-shadow: 0 0 25px rgba(230, 57, 70, 0.15);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-6px);
+  border-color: rgba(230, 57, 70, 0.5);
+  box-shadow: 0 12px 30px rgba(230, 57, 70, 0.25), 0 0 15px rgba(255, 46, 77, 0.2);
+}
+
+/* Text Glow & Gradient Effects */
+.text-gradient-red {
+  background: linear-gradient(135deg, #ffffff 0%, #E63946 60%, #FF2E4D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #ffffff 0%, #00F0FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(230, 57, 70, 0.4);
+}
+
+.glow-red-lg {
+  box-shadow: 0 0 40px rgba(255, 46, 77, 0.5);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes gridScan {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float 9s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Hide cursor scrollbar on modal open */
+.no-scroll {
+  overflow: hidden;
 }

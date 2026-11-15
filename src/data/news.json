@@ -1,0 +1,38 @@
+[
+  {
+    "id": "news-1",
+    "title": "Optimizing Unity Addressables for 60 FPS Mobile Performance",
+    "slug": "optimizing-unity-addressables-mobile-60fps",
+    "date": "August 2, 2026",
+    "author": "Redvega Studio Dev",
+    "category": "Tech Devlog",
+    "excerpt": "A deep dive into how we reduced RAM footprint by 45% and eliminated scene hitching in Stone Island using dynamic Addressable asset streaming.",
+    "readTime": "5 min read",
+    "image": "/images/gallery/devlog-1.svg",
+    "content": "Building high-fidelity survival games for mobile hardware requires rigorous memory management. In this devlog, we detail our pipeline using Unity Addressables..."
+  },
+  {
+    "id": "news-2",
+    "title": "Inside Infinity Space: Achieving 60Hz Photon Network Sync",
+    "slug": "inside-infinity-space-photon-network-sync",
+    "date": "July 18, 2026",
+    "author": "Redvega Studio Dev",
+    "category": "Multiplayer Architecture",
+    "excerpt": "How we implemented client-side prediction and server-assisted lag compensation for competitive starfighter dogfights in Infinity Space.",
+    "readTime": "7 min read",
+    "image": "/images/gallery/devlog-2.svg",
+    "content": "Multiplayer PvP demands instantaneous feedback. With Photon engine integration and custom delta compression, players experience zero latency jitter..."
+  },
+  {
+    "id": "news-3",
+    "title": "Announcing Cyber Core: Horizon - Next-Gen Tactical RPG",
+    "slug": "announcing-cyber-core-horizon-tactical-rpg",
+    "date": "June 25, 2026",
+    "author": "Redvega Studio Dev",
+    "category": "Announcement",
+    "excerpt": "We are excited to unveil our third major title in development, bringing tactical squad combat and cyberware customization to mobile & PC.",
+    "readTime": "4 min read",
+    "image": "/images/gallery/devlog-3.svg",
+    "content": "After months of secret prototyping, we are officially revealing Cyber Core: Horizon! Designed from the ground up for deep tactical gameplay..."
+  }
+]

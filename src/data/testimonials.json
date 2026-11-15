@@ -1,0 +1,29 @@
+[
+  {
+    "id": "test-1",
+    "name": "Alex Vance",
+    "role": "Mobile Gaming Weekly Reviewer",
+    "quote": "Stone Island delivers high-stakes survival mechanics and smooth framerates that rival AAA mobile ports. A triumph for indie solo development!",
+    "avatar": "AV",
+    "rating": 5,
+    "game": "Stone Island: The Apocalypse"
+  },
+  {
+    "id": "test-2",
+    "name": "Samantha Chen",
+    "role": "Competitive PvP Streamer",
+    "quote": "The 60Hz netcode in Infinity Space feels crisp. The tactical starfighter maneuverability creates intense dogfights that keep our community hooked.",
+    "avatar": "SC",
+    "rating": 5,
+    "game": "Infinity Space"
+  },
+  {
+    "id": "test-3",
+    "name": "Marcus Kane",
+    "role": "Beta Community Lead",
+    "quote": "Redvega Games shows incredible dedication to optimization and player feedback. Every update brings massive quality-of-life polish.",
+    "avatar": "MK",
+    "rating": 5,
+    "game": "Redvega Studio"
+  }
+]

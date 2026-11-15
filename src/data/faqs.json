@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq-1",
+    "question": "What engine powers Redvega Games titles?",
+    "answer": "All Redvega Games titles are engineered using the Unity Engine (URP) with custom C# optimization frameworks for ultra-responsive mobile performance.",
+    "category": "Technology"
+  },
+  {
+    "id": "faq-2",
+    "question": "Are Redvega games free to play?",
+    "answer": "Yes! Both Stone Island: The Apocalypse and Infinity Space are free to download on Android with fair, cosmetic-only or player-progression microtransactions.",
+    "category": "Games"
+  },
+  {
+    "id": "faq-3",
+    "question": "Will games be released on iOS and PC?",
+    "answer": "Currently, Stone Island and Infinity Space are tailored for Android on Google Play. Our upcoming title Cyber Core: Horizon and future expansions are planned for cross-platform release on Android, iOS, and PC (Steam).",
+    "category": "Platforms"
+  },
+  {
+    "id": "faq-4",
+    "question": "How can I join early closed beta tests?",
+    "answer": "You can subscribe to our newsletter or join our community discord/social channels to receive exclusive beta keys for upcoming titles like Cyber Core.",
+    "category": "Community"
+  },
+  {
+    "id": "faq-5",
+    "question": "Is Redvega Games a solo development studio?",
+    "answer": "Yes, Redvega Games is an independent solo dev studio handling everything from programming, shader design, game balancing, networking architecture, and community engagement.",
+    "category": "Studio"
+  }
+]

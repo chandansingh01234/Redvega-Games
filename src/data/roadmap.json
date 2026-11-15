@@ -1,0 +1,37 @@
+[
+  {
+    "quarter": "Q1 2025",
+    "title": "Stone Island: Survival Launch",
+    "description": "Initial global debut on Google Play with complete campaign mode, crafting system, and zombie horde AI.",
+    "status": "completed",
+    "tags": ["Stone Island", "Release", "Android"]
+  },
+  {
+    "quarter": "Q3 2025",
+    "title": "Infinity Space: PvP Debut",
+    "description": "Multiplayer launch with 3v3 starfighter arenas, Photon networking sync, and competitive leaderboards.",
+    "status": "completed",
+    "tags": ["Infinity Space", "Multiplayer", "Ranked"]
+  },
+  {
+    "quarter": "Q1 2026",
+    "title": "Stone Island: Apocalypse Expansion",
+    "description": "Major update introducing 4-Player Co-Op horde survival mode, new mutated boss types, and dynamic weather.",
+    "status": "in-progress",
+    "tags": ["Co-Op", "Major Update", "Content"]
+  },
+  {
+    "quarter": "Q3 2026",
+    "title": "Infinity Space 2.0 & Guild Wars",
+    "description": "Custom guild alliances, 10v10 orbital capital ship battles, and cross-play expansion.",
+    "status": "upcoming",
+    "tags": ["Guilds", "PvP", "Cross-Platform"]
+  },
+  {
+    "quarter": "Q4 2026",
+    "title": "Cyber Core: Horizon Alpha",
+    "description": "Closed alpha playtest for upcoming cyberpunk tactical squad RPG for registered community testers.",
+    "status": "upcoming",
+    "tags": ["New Title", "Tactical RPG", "Alpha"]
+  }
+]
