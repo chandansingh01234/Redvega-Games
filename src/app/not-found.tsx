@@ -26,7 +26,7 @@ export default function NotFound() {
             Return to Studio Base
           </Button>
         </Link>
-      </div>
+      </div>   
     </div>
   );
 }
